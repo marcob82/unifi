@@ -1,5 +1,5 @@
 FROM debian:jessie
-MAINTAINER 
+MAINTAINER marcob82 
 
 VOLUME ["/var/lib/unifi", "/var/log/unifi", "/var/run/unifi", "/usr/lib/unifi/work"]
 

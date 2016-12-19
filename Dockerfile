@@ -13,7 +13,7 @@ RUN echo "deb http://www.ubnt.com/downloads/unifi/debian unifi3 ubiquiti" \
   apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
 
 RUN apt-get -q update && \
-    apt-get install -qy --force-yes unifi && \
+    apt-get install -qy --force-yes unifi=3.2.10-2386 && \
     apt-get -q clean && \
     rm -rf /var/lib/apt/lists/*
 
